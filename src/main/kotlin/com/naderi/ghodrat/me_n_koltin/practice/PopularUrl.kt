@@ -18,7 +18,8 @@ https://public.karat.io/content/q015/single_url.txt
 
 
 Let's say we wanted to extract the top N URLs instead of the single top URL. Can you change your code to make N a configurable parameter?
-*/   class PopularUrl
+*/
+class PopularUrl
 
 fun main(argv: Array<String>) {
     var fileUrl = URL("https://public.karat.io/content/q015/urls.txt")
